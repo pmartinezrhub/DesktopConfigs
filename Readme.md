@@ -2,4 +2,4 @@
 
 Just files for configuring Linux desktops 
 
-![candadito.png]
+![](candadito.png)
