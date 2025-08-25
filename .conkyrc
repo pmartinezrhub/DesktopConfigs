@@ -61,10 +61,13 @@ conky.text = [[
 ${color lightgreen}System:$color ${scroll 32 $nodename $kernel $machine}
 $hr
 ${color lightgreen}Uptime:$color $uptime
-${color lightgreen}Frequency (in GHz):$color $freq_g
+
+${color lightgreen}CPU Frequency:$color $freq_g${color lightgreen}Ghz
+${color lightgreen}CPU Usage:$color $cpu% ${cpubar 4}
+
 ${color lightgreen}RAM Usage:$color $mem/$memmax - $memperc% ${membar 4}
 ${color lightgreen}Swap Usage:$color $swap/$swapmax - $swapperc% ${swapbar 4}
-${color lightgreen}CPU Usage:$color $cpu% ${cpubar 4}
+
 ${color lightgreen}Processes:$color $processes  ${color lightgreen}Running:$color $running_processes
 $hr
 ${color lightgreen}File systems:
